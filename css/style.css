@@ -88,8 +88,10 @@ h3 {
     color: #FFC107;
     text-transform: uppercase;
 }
-aside p {
-    padding: 8px;
+.contact {
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
 }
 .adresse {
     font-weight: bold;
@@ -115,7 +117,7 @@ aside p {
 }
 .articledroit {
     margin-left: 60px;
-    padding-right: 60px;
+    padding-right: 80px;
     padding-top: 60px;
 }
 h4 {
@@ -134,18 +136,14 @@ h4 i {
 }
 .encartgauche {
     display: flex;
-    width: 40%;
+    width: 50%;
 }
 .encartgauche i {
     margin-right: 20px;
 }
 .annee {
     flex-direction: column;
-    margin-right: 100px;
-    font-weight: bold;
-}
-.lieu {
-    flex-wrap: wrap;
+    width: 200px;
 }
 .encartdroit {
     width: 70%;
@@ -168,6 +166,9 @@ h4 i {
 .bold {
     font-weight: bold;
     text-transform: uppercase;
+}
+.reco span {
+    font-weight: bold;
 }
 
 
@@ -196,6 +197,7 @@ h4 i {
     }
     .annee {
         margin-right: 10px;
+        width: 100px;
     }
 }
 
@@ -227,21 +229,27 @@ h4 i {
     h4 i {
         margin-right: 5px;
     }
-    .section .row {
-        flex-direction: column-reverse;
+    .row {
+        display: flex;
+        flex-direction: column;
     }
     .colonnegauche {
         width: 100%;
+        margin-bottom: 30px;
     }
     .colonnedroite {
         width: 100%;
     }
     .articledroit {
+        width: 100%;
         margin: 10px;
         padding: 0;
     }
     .encartgauche {
         margin-right: 10%;
+    }
+    .annee {
+        width: 100px;
     }
      .reco {
         flex-direction: column;
