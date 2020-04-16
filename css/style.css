@@ -89,7 +89,7 @@ h3 {
     text-transform: uppercase;
 }
 .contact {
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     text-align: justify;
 }
@@ -173,9 +173,13 @@ h4 i {
 
 
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 750px) {
     body {
         border: none;
+    }
+    .contact {
+        padding: 8px;
+        margin: 0;
     }
     .articledroit {
         margin-top: 30px;
@@ -199,6 +203,10 @@ h4 i {
         margin-right: 10px;
         width: 100px;
     }
+    .recomdroite {
+        margin: 10px;
+    }
+
 }
 
 
@@ -209,6 +217,9 @@ h4 i {
     }
     header .row {
         flex-direction: column;
+    }
+    .titre {
+        margin-top: -30px;
     }
     .titre article {
         font-size: 80%;
