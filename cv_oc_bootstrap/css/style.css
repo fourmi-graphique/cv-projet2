@@ -1,0 +1,142 @@
+
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+.corps {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1190px;
+    width: 100%;
+	height: 100%;
+	margin: auto;
+	border: 2px #212121 solid;
+}
+
+::selection{
+    background-color: #212121;
+    ;
+    color: white;
+  }
+
+p, h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.fond {
+    background-color: #FBC02D;
+}
+
+.portrait {
+    width: 70%;
+    height: auto;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #ca9C00;
+    margin-top: 20px;
+} 
+a {
+    text-decoration: underline;
+    color: #212121;
+}
+h3 {
+    font-size: 150%;
+    color: #FBC02D;
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #212121;
+    text-transform: uppercase;
+}
+.propos {
+    margin-top: 50px;
+}
+.lorem {
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+.loisirs {
+    margin-bottom: 10px;
+}
+.loisirs i {
+    padding: 10px;
+    border-radius: 100%;
+    border: 5px #212121 solid;
+    color: #212121;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.titre {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+h1 {
+    font-size: 255%;
+    text-transform: uppercase;
+}
+#kaenu {
+    color: #FBC02D;
+}
+#devel {
+    display: inline-block;
+    border-bottom: 2px solid #FBC02D;
+    padding-bottom: 2px;
+}
+h2 {
+    font-size: 140%;
+    font-weight: bolder;
+}
+
+
+.diplomes {
+    margin-top: 50px;
+}
+.formations {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+hr {
+    border: 2px solid #FBC02D;
+}
+.chapeau {
+    color: #FBC02D;
+}
+.point {
+    color: #FBC02D;
+}
+.oneyear {
+    padding-top: 30px;
+}
+.ecole {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+    .portrait {
+        width: 50%;
+        height: auto;
+        
+    }
+  }
+
+@media (max-width: 640px) {
+    .portrait:nth-child(1) {
+        display: flex;
+        order: 2;
+    }
+    .nom:nth-child(2) {
+        display: flex;
+        order: 1;
+    }
+  }
+
