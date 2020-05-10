@@ -40,7 +40,7 @@ a {
     display: -webkit-box;
     display: flex;
 }
-.colonnegauche{
+.colonne__gauche{
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-orient: vertical;
@@ -52,7 +52,7 @@ a {
 	-webkit-box-pack: justify;
 	justify-content: space-between;
 }
-.colonnedroite {
+.colonne__droite {
     display: -webkit-box;
     display: flex;
     width: 70%;
@@ -83,10 +83,10 @@ h1 {
 h2 {
     margin-top: -20px;
 }
-.devel {
+.underline {
     border-bottom: 2px #FFC107 solid;
 }
-.prenom {
+.name {
     color: #FFC107;
 }
 
@@ -125,10 +125,10 @@ h3 {
 
 
 /* colonne droite */
-.colonnedroite i {
+.colonne__droite i {
     color: #FFC107;
 }
-.articledroit {
+.article__droit {
     margin-left: 60px;
     padding-right: 80px;
     padding-top: 60px;
@@ -148,7 +148,7 @@ h4 i {
     display: -webkit-box;
     display: flex;
 }
-.encartgauche {
+.encart__gauche {
     display: -webkit-box;
     display: flex;
     justify-content: space-between;
@@ -161,7 +161,7 @@ h4 i {
     flex-direction: column;
     width: 200px;
 }
-.encartdroit {
+.encart__droit {
     width: 70%;
 }
 .ecole {
@@ -182,7 +182,7 @@ h4 i {
     width: 50%;
     text-align: left;
 }
-.recomdroite {
+.recom__droite--1 {
     margin-left: 30%;
 }
 .bold {
@@ -202,7 +202,7 @@ h4 i {
         padding: 8px;
         margin: 0;
     }
-    .articledroit {
+    .article__droit {
         margin-top: 30px;
         margin-left: 20px;
         padding-right: 20px;
@@ -224,7 +224,7 @@ h4 i {
         margin-right: 10px;
         width: 100px;
     }
-    .recomdroite {
+    .recom__droite--1 {
         margin: 10px;
     }
 
@@ -270,19 +270,19 @@ h4 i {
         -webkit-box-direction: normal;
         flex-direction: column;
     }
-    .colonnegauche {
+    .colonne__gauche {
         width: 100%;
         margin-bottom: 30px;
     }
-    .colonnedroite {
+    .colonne__droite {
         width: 100%;
     }
-    .articledroit {
+    .article__droit {
         width: 100%;
         margin: 10px;
         padding: 0;
     }
-    .encartgauche {
+    .encart__gauche {
         margin-right: 10%;
     }
     .annee {
@@ -293,7 +293,7 @@ h4 i {
         -webkit-box-direction: normal;
         flex-direction: column;
     }
-    .recomdroite {
+    .recom__droite--1 {
         margin: 0;
     }
 }
